@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF94CA7DBEEF07AAD30FC1E /* Pods_iPa____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4CA3991D29214D80ED7042 /* Pods_iPa____Tests.framework */; };
+		3193F190DDAD8F6823170EAA /* Pods_iPa____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFD29B85F4DD96CF01960E4 /* Pods_iPa____.framework */; };
+		9400B3251DC987FC000DFEDF /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400B3231DC987FC000DFEDF /* MainWindow.swift */; };
+		942ACDA41DCCE3130016F899 /* itsnottoolate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 942ACDA31DCCE3130016F899 /* itsnottoolate.gif */; };
+		942ACDAA1DCD04B60016F899 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ACDA91DCD04B60016F899 /* AboutVC.swift */; };
+		942ACDAC1DCD12DF0016F899 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ACDAB1DCD12DF0016F899 /* File.swift */; };
+		94412B821DCB24BF007FA0F3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94412B811DCB24BE007FA0F3 /* libz.tbd */; };
+		949E78A51DC76278007E4107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78A41DC76278007E4107 /* AppDelegate.swift */; };
+		949E78A71DC76278007E4107 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78A61DC76278007E4107 /* MainVC.swift */; };
+		949E78A91DC76278007E4107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949E78A81DC76278007E4107 /* Assets.xcassets */; };
+		949E78AC1DC76278007E4107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949E78AA1DC76278007E4107 /* Main.storyboard */; };
+		949E78B71DC76278007E4107 /* iPa____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78B61DC76278007E4107 /* iPa____Tests.swift */; };
+		949E78C21DC76278007E4107 /* iPa____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78C11DC76278007E4107 /* iPa____UITests.swift */; };
+		949E78D41DC763FD007E4107 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78D31DC763FD007E4107 /* FileItem.swift */; };
+		949E78D61DC76BD8007E4107 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E78D51DC76BD8007E4107 /* DragView.swift */; };
+		94A4EF711DCB439800B04168 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF4E1DCB439800B04168 /* aescrypt.c */; };
+		94A4EF721DCB439800B04168 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF4F1DCB439800B04168 /* aeskey.c */; };
+		94A4EF731DCB439800B04168 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF511DCB439800B04168 /* aestab.c */; };
+		94A4EF741DCB439800B04168 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF551DCB439800B04168 /* entropy.c */; };
+		94A4EF751DCB439800B04168 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF571DCB439800B04168 /* fileenc.c */; };
+		94A4EF761DCB439800B04168 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF591DCB439800B04168 /* hmac.c */; };
+		94A4EF771DCB439800B04168 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF5B1DCB439800B04168 /* prng.c */; };
+		94A4EF781DCB439800B04168 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF5D1DCB439800B04168 /* pwd2key.c */; };
+		94A4EF791DCB439800B04168 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF5F1DCB439800B04168 /* sha1.c */; };
+		94A4EF7A1DCB439800B04168 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A4EF611DCB439800B04168 /* Info.plist */; };
+		94A4EF7B1DCB439800B04168 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF641DCB439800B04168 /* ioapi.c */; };
+		94A4EF7C1DCB439800B04168 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF661DCB439800B04168 /* mztools.c */; };
+		94A4EF7D1DCB439800B04168 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF681DCB439800B04168 /* unzip.c */; };
+		94A4EF7E1DCB439800B04168 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF6A1DCB439800B04168 /* zip.c */; };
+		94A4EF7F1DCB439800B04168 /* SSZipArchive+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF6C1DCB439800B04168 /* SSZipArchive+Swift.swift */; };
+		94A4EF801DCB439800B04168 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EF6E1DCB439800B04168 /* SSZipArchive.m */; };
+		94A4EF831DCC72C200B04168 /* CARExtractor in Resources */ = {isa = PBXBuildFile; fileRef = 94A4EF821DCC72C200B04168 /* CARExtractor */; };
+		94A4EFC01DCCCDDB00B04168 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4EFBF1DCCCDDB00B04168 /* GifView.swift */; };
+		E6B8C04976709C76DABAFDBB /* Pods_iPa____UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF8B2D2807C08A378F4CCE7 /* Pods_iPa____UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		949E78B31DC76278007E4107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949E78991DC76278007E4107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949E78A01DC76278007E4107;
+			remoteInfo = "iPa图片提取";
+		};
+		949E78BE1DC76278007E4107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949E78991DC76278007E4107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949E78A01DC76278007E4107;
+			remoteInfo = "iPa图片提取";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AFD29B85F4DD96CF01960E4 /* Pods_iPa____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iPa____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79303D02A0083B207ECC80 /* Pods-iPa图片提取Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取Tests/Pods-iPa图片提取Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71B0FF5BFB0C8A63B7A3792C /* Pods-iPa图片提取UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取UITests/Pods-iPa图片提取UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C90E9E7D2F1E78B5983CB31 /* Pods-iPa图片提取.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取/Pods-iPa图片提取.release.xcconfig"; sourceTree = "<group>"; };
+		9400B3231DC987FC000DFEDF /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		942ACDA31DCCE3130016F899 /* itsnottoolate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = itsnottoolate.gif; sourceTree = "<group>"; };
+		942ACDA91DCD04B60016F899 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		942ACDAB1DCD12DF0016F899 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		94412B811DCB24BE007FA0F3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		949E78A11DC76278007E4107 /* Extrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949E78A41DC76278007E4107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		949E78A61DC76278007E4107 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		949E78A81DC76278007E4107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		949E78AB1DC76278007E4107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		949E78AD1DC76278007E4107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949E78B21DC76278007E4107 /* iPa图片提取Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPa图片提取Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949E78B61DC76278007E4107 /* iPa____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPa____Tests.swift"; sourceTree = "<group>"; };
+		949E78B81DC76278007E4107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949E78BD1DC76278007E4107 /* iPa图片提取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPa图片提取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949E78C11DC76278007E4107 /* iPa____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPa____UITests.swift"; sourceTree = "<group>"; };
+		949E78C31DC76278007E4107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949E78D31DC763FD007E4107 /* FileItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		949E78D51DC76BD8007E4107 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		94A4EF491DCB436B00B04168 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		94A4EF4C1DCB439800B04168 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		94A4EF4D1DCB439800B04168 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		94A4EF4E1DCB439800B04168 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		94A4EF4F1DCB439800B04168 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		94A4EF501DCB439800B04168 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		94A4EF511DCB439800B04168 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		94A4EF521DCB439800B04168 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		94A4EF531DCB439800B04168 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		94A4EF541DCB439800B04168 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		94A4EF551DCB439800B04168 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		94A4EF561DCB439800B04168 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		94A4EF571DCB439800B04168 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		94A4EF581DCB439800B04168 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		94A4EF591DCB439800B04168 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		94A4EF5A1DCB439800B04168 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		94A4EF5B1DCB439800B04168 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		94A4EF5C1DCB439800B04168 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		94A4EF5D1DCB439800B04168 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		94A4EF5E1DCB439800B04168 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		94A4EF5F1DCB439800B04168 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		94A4EF601DCB439800B04168 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		94A4EF611DCB439800B04168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A4EF631DCB439800B04168 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		94A4EF641DCB439800B04168 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		94A4EF651DCB439800B04168 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		94A4EF661DCB439800B04168 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		94A4EF671DCB439800B04168 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		94A4EF681DCB439800B04168 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		94A4EF691DCB439800B04168 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		94A4EF6A1DCB439800B04168 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		94A4EF6B1DCB439800B04168 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		94A4EF6C1DCB439800B04168 /* SSZipArchive+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSZipArchive+Swift.swift"; sourceTree = "<group>"; };
+		94A4EF6D1DCB439800B04168 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		94A4EF6E1DCB439800B04168 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		94A4EF6F1DCB439800B04168 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		94A4EF701DCB439800B04168 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		94A4EF821DCC72C200B04168 /* CARExtractor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = CARExtractor; sourceTree = "<group>"; };
+		94A4EFBF1DCCCDDB00B04168 /* GifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		A756E04B8D3762194A94E732 /* Pods-iPa图片提取Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取Tests/Pods-iPa图片提取Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF8B2D2807C08A378F4CCE7 /* Pods_iPa____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iPa____UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4CA3991D29214D80ED7042 /* Pods_iPa____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iPa____Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0068111DD77E21C79DFE759 /* Pods-iPa图片提取.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取/Pods-iPa图片提取.debug.xcconfig"; sourceTree = "<group>"; };
+		C828D6BC0704C450DE12E8CC /* Pods-iPa图片提取UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPa图片提取UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPa图片提取UITests/Pods-iPa图片提取UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		949E789E1DC76278007E4107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94412B821DCB24BF007FA0F3 /* libz.tbd in Frameworks */,
+				3193F190DDAD8F6823170EAA /* Pods_iPa____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78AF1DC76278007E4107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF94CA7DBEEF07AAD30FC1E /* Pods_iPa____Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78BA1DC76278007E4107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B8C04976709C76DABAFDBB /* Pods_iPa____UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F73C2698789E96AF48CCEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0068111DD77E21C79DFE759 /* Pods-iPa图片提取.debug.xcconfig */,
+				8C90E9E7D2F1E78B5983CB31 /* Pods-iPa图片提取.release.xcconfig */,
+				A756E04B8D3762194A94E732 /* Pods-iPa图片提取Tests.debug.xcconfig */,
+				3F79303D02A0083B207ECC80 /* Pods-iPa图片提取Tests.release.xcconfig */,
+				C828D6BC0704C450DE12E8CC /* Pods-iPa图片提取UITests.debug.xcconfig */,
+				71B0FF5BFB0C8A63B7A3792C /* Pods-iPa图片提取UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E44580452DAF9583C121F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94412B811DCB24BE007FA0F3 /* libz.tbd */,
+				2AFD29B85F4DD96CF01960E4 /* Pods_iPa____.framework */,
+				AF4CA3991D29214D80ED7042 /* Pods_iPa____Tests.framework */,
+				ADF8B2D2807C08A378F4CCE7 /* Pods_iPa____UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949E78981DC76278007E4107 = {
+			isa = PBXGroup;
+			children = (
+				94A4EF811DCC728300B04168 /* Supporting */,
+				949E78A31DC76278007E4107 /* iPa图片提取 */,
+				949E78A21DC76278007E4107 /* Products */,
+				48F73C2698789E96AF48CCEE /* Pods */,
+				6E44580452DAF9583C121F4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		949E78A21DC76278007E4107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949E78A11DC76278007E4107 /* Extrac.app */,
+				949E78B21DC76278007E4107 /* iPa图片提取Tests.xctest */,
+				949E78BD1DC76278007E4107 /* iPa图片提取UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		949E78A31DC76278007E4107 /* iPa图片提取 */ = {
+			isa = PBXGroup;
+			children = (
+				949E78CF1DC7638E007E4107 /* Main */,
+				949E78A41DC76278007E4107 /* AppDelegate.swift */,
+				949E78A81DC76278007E4107 /* Assets.xcassets */,
+				949E78AD1DC76278007E4107 /* Info.plist */,
+			);
+			path = "iPa图片提取";
+			sourceTree = "<group>";
+		};
+		949E78B51DC76278007E4107 /* iPa图片提取Tests */ = {
+			isa = PBXGroup;
+			children = (
+				949E78B61DC76278007E4107 /* iPa____Tests.swift */,
+				949E78B81DC76278007E4107 /* Info.plist */,
+			);
+			path = "iPa图片提取Tests";
+			sourceTree = "<group>";
+		};
+		949E78C01DC76278007E4107 /* iPa图片提取UITests */ = {
+			isa = PBXGroup;
+			children = (
+				949E78C11DC76278007E4107 /* iPa____UITests.swift */,
+				949E78C31DC76278007E4107 /* Info.plist */,
+			);
+			path = "iPa图片提取UITests";
+			sourceTree = "<group>";
+		};
+		949E78CF1DC7638E007E4107 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				949E78D21DC763A6007E4107 /* Control */,
+				949E78D11DC7639F007E4107 /* Model */,
+				949E78D01DC76397007E4107 /* VIew */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		949E78D01DC76397007E4107 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				949E78D51DC76BD8007E4107 /* DragView.swift */,
+				94A4EFBF1DCCCDDB00B04168 /* GifView.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		949E78D11DC7639F007E4107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				949E78D31DC763FD007E4107 /* FileItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		949E78D21DC763A6007E4107 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				949E78AA1DC76278007E4107 /* Main.storyboard */,
+				942ACDA91DCD04B60016F899 /* AboutVC.swift */,
+				9400B3231DC987FC000DFEDF /* MainWindow.swift */,
+				949E78A61DC76278007E4107 /* MainVC.swift */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		94A4EF4A1DCB439800B04168 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				94A4EF4B1DCB439800B04168 /* aes */,
+				94A4EF611DCB439800B04168 /* Info.plist */,
+				94A4EF621DCB439800B04168 /* minizip */,
+				94A4EF6C1DCB439800B04168 /* SSZipArchive+Swift.swift */,
+				94A4EF6D1DCB439800B04168 /* SSZipArchive.h */,
+				94A4EF6E1DCB439800B04168 /* SSZipArchive.m */,
+				94A4EF6F1DCB439800B04168 /* SSZipCommon.h */,
+				94A4EF701DCB439800B04168 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		94A4EF4B1DCB439800B04168 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				94A4EF4C1DCB439800B04168 /* aes.h */,
+				94A4EF4D1DCB439800B04168 /* aes_via_ace.h */,
+				94A4EF4E1DCB439800B04168 /* aescrypt.c */,
+				94A4EF4F1DCB439800B04168 /* aeskey.c */,
+				94A4EF501DCB439800B04168 /* aesopt.h */,
+				94A4EF511DCB439800B04168 /* aestab.c */,
+				94A4EF521DCB439800B04168 /* aestab.h */,
+				94A4EF531DCB439800B04168 /* brg_endian.h */,
+				94A4EF541DCB439800B04168 /* brg_types.h */,
+				94A4EF551DCB439800B04168 /* entropy.c */,
+				94A4EF561DCB439800B04168 /* entropy.h */,
+				94A4EF571DCB439800B04168 /* fileenc.c */,
+				94A4EF581DCB439800B04168 /* fileenc.h */,
+				94A4EF591DCB439800B04168 /* hmac.c */,
+				94A4EF5A1DCB439800B04168 /* hmac.h */,
+				94A4EF5B1DCB439800B04168 /* prng.c */,
+				94A4EF5C1DCB439800B04168 /* prng.h */,
+				94A4EF5D1DCB439800B04168 /* pwd2key.c */,
+				94A4EF5E1DCB439800B04168 /* pwd2key.h */,
+				94A4EF5F1DCB439800B04168 /* sha1.c */,
+				94A4EF601DCB439800B04168 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		94A4EF621DCB439800B04168 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				94A4EF631DCB439800B04168 /* crypt.h */,
+				94A4EF641DCB439800B04168 /* ioapi.c */,
+				94A4EF651DCB439800B04168 /* ioapi.h */,
+				94A4EF661DCB439800B04168 /* mztools.c */,
+				94A4EF671DCB439800B04168 /* mztools.h */,
+				94A4EF681DCB439800B04168 /* unzip.c */,
+				94A4EF691DCB439800B04168 /* unzip.h */,
+				94A4EF6A1DCB439800B04168 /* zip.c */,
+				94A4EF6B1DCB439800B04168 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		94A4EF811DCC728300B04168 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				94A4EF821DCC72C200B04168 /* CARExtractor */,
+				942ACDA31DCCE3130016F899 /* itsnottoolate.gif */,
+				94A4EF491DCB436B00B04168 /* Header.h */,
+				949E78B51DC76278007E4107 /* iPa图片提取Tests */,
+				949E78C01DC76278007E4107 /* iPa图片提取UITests */,
+				94A4EF4A1DCB439800B04168 /* SSZipArchive */,
+				942ACDAB1DCD12DF0016F899 /* File.swift */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		949E78A01DC76278007E4107 /* Extrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949E78C61DC76278007E4107 /* Build configuration list for PBXNativeTarget "Extrac" */;
+			buildPhases = (
+				8514155574E70DF47BE49BBD /* 📦 Check Pods Manifest.lock */,
+				949E789D1DC76278007E4107 /* Sources */,
+				949E789E1DC76278007E4107 /* Frameworks */,
+				949E789F1DC76278007E4107 /* Resources */,
+				563C11436BD0E8666F4B5C38 /* 📦 Embed Pods Frameworks */,
+				CE1F1B5CB428B4E15D1C5DBD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extrac;
+			productName = "iPa图片提取";
+			productReference = 949E78A11DC76278007E4107 /* Extrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		949E78B11DC76278007E4107 /* iPa图片提取Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949E78C91DC76278007E4107 /* Build configuration list for PBXNativeTarget "iPa图片提取Tests" */;
+			buildPhases = (
+				C7C6987A50843038A1283F5D /* 📦 Check Pods Manifest.lock */,
+				949E78AE1DC76278007E4107 /* Sources */,
+				949E78AF1DC76278007E4107 /* Frameworks */,
+				949E78B01DC76278007E4107 /* Resources */,
+				362D960F85D9BA46E3808B30 /* 📦 Embed Pods Frameworks */,
+				9207E35A23384F80AA2FF2E6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949E78B41DC76278007E4107 /* PBXTargetDependency */,
+			);
+			name = "iPa图片提取Tests";
+			productName = "iPa图片提取Tests";
+			productReference = 949E78B21DC76278007E4107 /* iPa图片提取Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		949E78BC1DC76278007E4107 /* iPa图片提取UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949E78CC1DC76278007E4107 /* Build configuration list for PBXNativeTarget "iPa图片提取UITests" */;
+			buildPhases = (
+				9657AB7A61112F21C56DA7FB /* 📦 Check Pods Manifest.lock */,
+				949E78B91DC76278007E4107 /* Sources */,
+				949E78BA1DC76278007E4107 /* Frameworks */,
+				949E78BB1DC76278007E4107 /* Resources */,
+				268AC9C63590FF8D063D4DAA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949E78BF1DC76278007E4107 /* PBXTargetDependency */,
+			);
+			name = "iPa图片提取UITests";
+			productName = "iPa图片提取UITests";
+			productReference = 949E78BD1DC76278007E4107 /* iPa图片提取UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		949E78991DC76278007E4107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "田子瑶";
+				TargetAttributes = {
+					949E78A01DC76278007E4107 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3AWU5D9Z5R;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					949E78B11DC76278007E4107 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 949E78A01DC76278007E4107;
+					};
+					949E78BC1DC76278007E4107 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 949E78A01DC76278007E4107;
+					};
+				};
+			};
+			buildConfigurationList = 949E789C1DC76278007E4107 /* Build configuration list for PBXProject "iPa图片提取" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 949E78981DC76278007E4107;
+			productRefGroup = 949E78A21DC76278007E4107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				949E78A01DC76278007E4107 /* Extrac */,
+				949E78B11DC76278007E4107 /* iPa图片提取Tests */,
+				949E78BC1DC76278007E4107 /* iPa图片提取UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		949E789F1DC76278007E4107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4EF7A1DCB439800B04168 /* Info.plist in Resources */,
+				94A4EF831DCC72C200B04168 /* CARExtractor in Resources */,
+				949E78A91DC76278007E4107 /* Assets.xcassets in Resources */,
+				942ACDA41DCCE3130016F899 /* itsnottoolate.gif in Resources */,
+				949E78AC1DC76278007E4107 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78B01DC76278007E4107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78BB1DC76278007E4107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268AC9C63590FF8D063D4DAA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPa图片提取UITests/Pods-iPa图片提取UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362D960F85D9BA46E3808B30 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPa图片提取Tests/Pods-iPa图片提取Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563C11436BD0E8666F4B5C38 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPa图片提取/Pods-iPa图片提取-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8514155574E70DF47BE49BBD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9207E35A23384F80AA2FF2E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPa图片提取Tests/Pods-iPa图片提取Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9657AB7A61112F21C56DA7FB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C6987A50843038A1283F5D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1F1B5CB428B4E15D1C5DBD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPa图片提取/Pods-iPa图片提取-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		949E789D1DC76278007E4107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4EF7D1DCB439800B04168 /* unzip.c in Sources */,
+				94A4EF791DCB439800B04168 /* sha1.c in Sources */,
+				94A4EF7F1DCB439800B04168 /* SSZipArchive+Swift.swift in Sources */,
+				94A4EF771DCB439800B04168 /* prng.c in Sources */,
+				94A4EF761DCB439800B04168 /* hmac.c in Sources */,
+				94A4EF801DCB439800B04168 /* SSZipArchive.m in Sources */,
+				942ACDAC1DCD12DF0016F899 /* File.swift in Sources */,
+				949E78A71DC76278007E4107 /* MainVC.swift in Sources */,
+				94A4EF7E1DCB439800B04168 /* zip.c in Sources */,
+				94A4EFC01DCCCDDB00B04168 /* GifView.swift in Sources */,
+				949E78D41DC763FD007E4107 /* FileItem.swift in Sources */,
+				94A4EF741DCB439800B04168 /* entropy.c in Sources */,
+				94A4EF7C1DCB439800B04168 /* mztools.c in Sources */,
+				94A4EF721DCB439800B04168 /* aeskey.c in Sources */,
+				94A4EF731DCB439800B04168 /* aestab.c in Sources */,
+				9400B3251DC987FC000DFEDF /* MainWindow.swift in Sources */,
+				94A4EF7B1DCB439800B04168 /* ioapi.c in Sources */,
+				949E78D61DC76BD8007E4107 /* DragView.swift in Sources */,
+				94A4EF711DCB439800B04168 /* aescrypt.c in Sources */,
+				949E78A51DC76278007E4107 /* AppDelegate.swift in Sources */,
+				94A4EF781DCB439800B04168 /* pwd2key.c in Sources */,
+				942ACDAA1DCD04B60016F899 /* AboutVC.swift in Sources */,
+				94A4EF751DCB439800B04168 /* fileenc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78AE1DC76278007E4107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949E78B71DC76278007E4107 /* iPa____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949E78B91DC76278007E4107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949E78C21DC76278007E4107 /* iPa____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		949E78B41DC76278007E4107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949E78A01DC76278007E4107 /* Extrac */;
+			targetProxy = 949E78B31DC76278007E4107 /* PBXContainerItemProxy */;
+		};
+		949E78BF1DC76278007E4107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949E78A01DC76278007E4107 /* Extrac */;
+			targetProxy = 949E78BE1DC76278007E4107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		949E78AA1DC76278007E4107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949E78AB1DC76278007E4107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		949E78C41DC76278007E4107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		949E78C51DC76278007E4107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		949E78C71DC76278007E4107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0068111DD77E21C79DFE759 /* Pods-iPa图片提取.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AWU5D9Z5R;
+				INFOPLIST_FILE = "iPa图片提取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		949E78C81DC76278007E4107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C90E9E7D2F1E78B5983CB31 /* Pods-iPa图片提取.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AWU5D9Z5R;
+				INFOPLIST_FILE = "iPa图片提取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		949E78CA1DC76278007E4107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A756E04B8D3762194A94E732 /* Pods-iPa图片提取Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iPa图片提取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPa图片提取.app/Contents/MacOS/iPa图片提取";
+			};
+			name = Debug;
+		};
+		949E78CB1DC76278007E4107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F79303D02A0083B207ECC80 /* Pods-iPa图片提取Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iPa图片提取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPa图片提取.app/Contents/MacOS/iPa图片提取";
+			};
+			name = Release;
+		};
+		949E78CD1DC76278007E4107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C828D6BC0704C450DE12E8CC /* Pods-iPa图片提取UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iPa图片提取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iPa图片提取";
+			};
+			name = Debug;
+		};
+		949E78CE1DC76278007E4107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B0FF5BFB0C8A63B7A3792C /* Pods-iPa图片提取UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iPa图片提取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "space.tianziyao.iPa----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iPa图片提取";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		949E789C1DC76278007E4107 /* Build configuration list for PBXProject "iPa图片提取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949E78C41DC76278007E4107 /* Debug */,
+				949E78C51DC76278007E4107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949E78C61DC76278007E4107 /* Build configuration list for PBXNativeTarget "Extrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949E78C71DC76278007E4107 /* Debug */,
+				949E78C81DC76278007E4107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949E78C91DC76278007E4107 /* Build configuration list for PBXNativeTarget "iPa图片提取Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949E78CA1DC76278007E4107 /* Debug */,
+				949E78CB1DC76278007E4107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949E78CC1DC76278007E4107 /* Build configuration list for PBXNativeTarget "iPa图片提取UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949E78CD1DC76278007E4107 /* Debug */,
+				949E78CE1DC76278007E4107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 949E78991DC76278007E4107 /* Project object */;
+}

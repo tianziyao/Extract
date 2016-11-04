@@ -1,0 +1,6 @@
+framework module Pods_iPa____UITests {
+  umbrella header "Pods-iPa图片提取UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
